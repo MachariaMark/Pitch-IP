@@ -4,7 +4,7 @@ class Config:
     '''
     General configuration parent class
     '''
-    SECRET_KEY = os.environ.get('SECRET_KEY')
+    SECRET_KEY='bubbles'
     SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://postgres:rock1ville@localhost/minutepitch'
     UPLOADED_PHOTOS_DEST ='app/static'
     SQLALCHEMY_TRACK_MODIFICATIONS = True
