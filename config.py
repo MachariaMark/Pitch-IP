@@ -5,7 +5,7 @@ class Config:
     General configuration parent class
     '''
     SECRET_KEY='bubbles'
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://postgres:rock1ville@localhost/minutepitch'
+    DATABASE_URL='postgresql+psycopg2://postgres:rock1ville@localhost:5000/minutepitch'
     UPLOADED_PHOTOS_DEST ='app/static'
     SQLALCHEMY_TRACK_MODIFICATIONS = True
     # email configurations
